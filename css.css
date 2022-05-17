@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+body {
+  background-image: url(src/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: antiquewhite;
+}
+
+#name {
+  font-family: "San Francisco";
+  font-size: 200px;
+  text-align: left;
+  margin-top: 20px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#links {
+  color: antiquewhite;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#github-a {
+  position: absolute;
+  right: 160px;
+  top: 200px;
+}
+
+#linkedin-a {
+  position: absolute;
+  right: 160px;
+  top: 300px;
+}
+
+#twitter-a {
+  position: absolute;
+  right: 160px;
+  top: 400px;
+}
+
+#spotify-a {
+  position: absolute;
+  right: 160px;
+  top: 500px;
+}
+
+#steam-a {
+  position: absolute;
+  right: 160px;
+  top: 600px;
+}
+
+#mail {
+  color: antiquewhite;
+}
+
+#year {
+  color: antiquewhite;
+  position: relative;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
