@@ -64,6 +64,12 @@ body {
   top: 600px;
 }
 
+footer {
+  position: absolute;
+  left: 1rem;
+  bottom: 0rem;
+}
+
 #mail {
   color: antiquewhite;
 }
@@ -78,67 +84,45 @@ body {
   user-select: none;
 }
 
-/* Mobil */
+/* Mobile */
 
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 900px) 
+  and (max-device-width: 920px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
   #name {
-    font-size: 75px;
+    font-size: 4.6rem;
   }
     
     #github-a {
       position: absolute;
-      right: 330px;
-      top: 350px;
+      right: 19.5rem;
+      top: 21.7rem;
     } 
     
     #linkedin-a {
       position: absolute;
-      right: 260px;
-      top: 345px;
+      right: 15rem;
+      top: 21.5rem;
     }   
     
     #twitter-a {
       position: absolute;
-      right: 180px;
-      top: 350px;
+      right: 10.5rem;
+      top: 22rem;
     }   
     
     #spotify-a {
       position: absolute;
-      right: 100px;
-      top: 350px;
+      right: 6rem;
+      top: 22rem;
     }
     
     #steam-a {
       position: absolute;
-      right: 20px;
-      top: 350px;
-    }
-
-    #year {
-      position: absolute;
-      left: 20px;
-      bottom: 0px;
-    }
-
-    #mail {
-      position: absolute;
-      left: 20px;
-      bottom: 40px;
+      right: 1.5rem;
+      top: 22rem;
     }
 }
-
-/* Tablet */
-
-@media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 1200px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
 
