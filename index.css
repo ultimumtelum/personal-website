@@ -77,3 +77,68 @@ body {
   -o-user-select: none;
   user-select: none;
 }
+
+/* Mobil */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  #name {
+    font-size: 75px;
+  }
+    
+    #github-a {
+      position: absolute;
+      right: 330px;
+      top: 350px;
+    } 
+    
+    #linkedin-a {
+      position: absolute;
+      right: 260px;
+      top: 345px;
+    }   
+    
+    #twitter-a {
+      position: absolute;
+      right: 180px;
+      top: 350px;
+    }   
+    
+    #spotify-a {
+      position: absolute;
+      right: 100px;
+      top: 350px;
+    }
+    
+    #steam-a {
+      position: absolute;
+      right: 20px;
+      top: 350px;
+    }
+
+    #year {
+      position: absolute;
+      left: 20px;
+      bottom: 0px;
+    }
+
+    #mail {
+      position: absolute;
+      left: 20px;
+      bottom: 40px;
+    }
+}
+
+/* Tablet */
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
